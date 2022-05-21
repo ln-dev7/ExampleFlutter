@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
 
   final PageStorageBucket bucket = PageStorageBucket();
 
-  Widget currentScreen = Dashboard();
+  Widget currentScreen = Dashboard(); // Definir la premmière page
 
   @override
   Widget build(BuildContext context) {
